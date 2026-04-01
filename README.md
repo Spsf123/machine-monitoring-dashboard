@@ -65,15 +65,6 @@ Key Insights
 
 Project Structure
 
-machine-monitoring-dashboard/
-│
-├── data/                  # Dataset
-├── sql/                   # SQL scripts (raw, staging, mart)
-├── powerbi/               # Power BI dashboard (.pbix)
-├── images/                # Dashboard screenshots
-└── README.md
-
-
 How to Run
 	1.	Load dataset into PostgreSQL
 	2.	Run SQL scripts to create staging and mart tables
