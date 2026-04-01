@@ -15,6 +15,11 @@ This project is a machine monitoring and analytics dashboard designed to track e
 
 ---
 
+## Data Source
+Simulated industrial machine sensor dataset
+
+---
+
 ## 🛠️ Tech Stack
 
 * **PostgreSQL** – Data storage and transformation (raw → staging → mart)
@@ -81,10 +86,9 @@ Raw Layer → Staging Layer → Mart Layer
 
 ## 🔍 Key Insights
 
-* High-risk machines are concentrated in specific operating conditions
-* Tool wear and torque show strong variation across machines
-* Certain failure types occur more frequently and require monitoring
-* Critical machines can be identified early for preventive maintenance
+* High tool wear strongly correlates with machine failure
+* Machines with higher torque tend to have higher risk levels
+* Preventive maintenance should focus on high-risk machines
 
 
 ---
