@@ -93,15 +93,6 @@ Raw Layer → Staging Layer → Mart Layer
 
 ---
 
-## 🚀 How to Run
-
-1. Load dataset into PostgreSQL
-2. Run SQL scripts to create staging and mart tables
-3. Open Power BI file
-4. Connect to database and refresh data
-
----
-
 ## 🎯 Skills Demonstrated
 
 * Data Pipeline Design (ETL)
